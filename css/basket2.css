@@ -12,7 +12,6 @@
 }
 .left_details{
     width: 555px;
-    
 }
 .all_details {
     display: flex;
@@ -72,7 +71,7 @@ textarea[placeholder="Примечание к заказу (необязател
     border: 1px solid #E5E5E5;
     border-radius: 5px;
     font-family: Gilroy-Regular;
-    width: 710px;
+    width: 401px;
     padding-left: 30px;
     padding-top: 11px;
     padding-bottom: 11px;
@@ -103,6 +102,11 @@ textarea[placeholder="Примечание к заказу (необязател
     height: 379px;
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
+    position: absolute;
+    right: 5%;
+}
+#basket .container {
+    position: static;
 }
 .itog_details{
     font-family: Gilroy-Bold;
@@ -159,6 +163,14 @@ textarea[placeholder="Примечание к заказу (необязател
     color: #2D7600;
     text-decoration-line: underline;
 }
+.fixed {
+    position: fixed;
+    top: 100px;
+    right: 5%;
+}
+.down_fixed {
+    align-self: flex-end;
+}
 
 @media screen and (max-width: 1670px) {
     .container {
@@ -167,17 +179,18 @@ textarea[placeholder="Примечание к заказу (необязател
 }
 @media screen and (max-width: 1400px) {
     .your_zakaz {
-        width: auto;
+        width: 600px;
+    }
+    .input_details select {
+        width: 401px;
     }
 }
 @media screen and (max-width: 1210px) {
-    .your_zakaz {
-        width: auto;
-    }
     .all_details {
         flex-direction: column;
     }
     .right_details {
+        position: static;
         margin: 0 auto;
         margin-bottom: 50px;
     }
@@ -186,6 +199,9 @@ textarea[placeholder="Примечание к заказу (необязател
     }
 }
 @media screen and (max-width: 890px) {
+    .your_zakaz {
+        width: auto;
+    }
     .input_details {
         flex-direction: column;
         align-items: flex-start;
@@ -193,15 +209,12 @@ textarea[placeholder="Примечание к заказу (необязател
     .prim_zakaz {
         width: auto;
     }
-    .input_details select {
-        width: 100%;
-    }
 }
 @media screen and (max-width: 430px) {
     .container {
         width: 95%;
     }
-    textarea[placeholder="Примечание к заказу (необязательно)"], .input_details input {
+    textarea[placeholder="Примечание к заказу (необязательно)"], .input_details input, .input_details select {
         width: 100%;
     }
     .input_details select {

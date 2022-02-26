@@ -167,6 +167,7 @@
     border: 1px solid #8A8A8A;
     border-radius: 20px;
     position: relative;
+    text-decoration: none;
 }
 .search_catalog{
     cursor: pointer;

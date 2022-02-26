@@ -1,4 +1,33 @@
 $(document).ready(function(){
+    // gam
+    $(".gam").click(function () {
+        $(".gam_menu").addClass("gam_active");
+        console.log("click");
+    });
+    $(".krest").click(function () {
+        $(".gam_menu").removeClass("gam_active");
+        console.log("clickkrest");
+    });
+
+    // accept form
+
+    $(".btn").click(function(event){
+        event.preventDefault();
+        Swal.fire({
+            icon: 'success',
+            title: 'Спасибо!',
+            text: 'Мы приняли ваше обращение.',
+          })    
+    });
+    $(".otz_btn").click(function(event){
+        event.preventDefault();
+        Swal.fire({
+            icon: 'success',
+            title: 'Спасибо!',
+            text: 'Мы приняли ваш отзыв.',
+          })    
+    });
+    
     // index
     $(".point").mouseover("[data=help]",function() {
         $("#"+$(this).data("help")).addClass("active");
@@ -109,8 +138,8 @@ $(document).ready(function(){
             itemWidth: 450,
             draggable: true,
             arrows: {
-                prev: '.left_arrow',
-                next: '.right_arrow'
+                prev: '.bottom_arrow_l',
+                next: '.bottom_arrow_r'
             }
         })
     }

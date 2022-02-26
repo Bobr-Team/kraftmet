@@ -325,14 +325,20 @@ input[type=number]::-webkit-outer-spin-button {
         padding-left: 0;
         padding-right: 0;
         display: block;
-        width: 100%;
+        width: 300px;
         text-align: center;
     }
 }
 
 @media screen and (max-width: 1030px) {
-    .sort_search {
+    .sort_img{
         display: none;
+    }
+    .sort_search{
+        display: none;
+    }
+    .sort_left{
+        margin: 0 auto;
     }
     .item_spisok {
         width: 423px;
@@ -364,6 +370,12 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 @media screen and (max-width: 870px) {
+    .sort_cost, .sort_name, .sort_reyt{
+        font-size: 10px;
+    }
+    .sort_txt{
+        display: none;
+    }
     .sort {
         padding-left: 20px;
         padding-right: 20px;
@@ -373,7 +385,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 @media screen and (max-width: 740px) {
-    .sort, .category_nav {
+    .category_nav {
         display: none;
     }
     .items_plit {

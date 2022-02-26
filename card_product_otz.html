@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/catalog_plit.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/glider.css">
+    <link rel="stylesheet" href="css/card_product.css">
     <link rel="stylesheet" href="css/basket.css">
     <title>Крафтмет</title>
 </head>
@@ -38,6 +39,47 @@
             <a class="btn_send_call" href="">Отправить</a>
             <p class="call_xs">Нажимая на кнопку я даю согласие на обработку данных и согласен с политикой
                 конфиденциальности, а также с Условиями продажи</p>
+        </div>
+    </div>
+    <div class="log_reg">
+        <div class="block_log_reg">
+            <img class="close_btn" src="img/close.svg" alt="close">
+            <div class="content_log">
+                <div class="btns_log_reg">
+                    <a class="enter" href="#">Вход</a>
+                    <a class="registration" href="#">Регистрация</a>
+                </div>
+                <form class="log_form">
+                    <div class="input_block_log">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <div class="face_after"><img src="img/face_after.svg" alt="face_after"></div>
+                    </div>
+                    <div class="input_block_log">
+                        <input type="password" name="pass" placeholder="Пароль">
+                        <div class="lock_after"><img src="img/lock.svg" alt="lock"></div>
+                    </div>
+                    <a class="return_pass" href="#">Восстановить пароль</a>
+                    <button class="login" type="submit">Войти</button>
+                </form>
+                <form class="reg_form">
+                    <div class="input_block_log">
+                        <input type="text" name="name" placeholder="Имя">
+                        <div class="face_after"><img src="img/face_after.svg" alt="face_after"></div>
+                    </div>
+                    <div class="input_block_log">
+                        <input type="tel" name="tel" placeholder="Номер телефона">
+                        <div class="lock_after"><img src="img/phone_reg.svg" alt="phone"></div>
+                    </div>
+                    <div class="input_block_log">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <div class="face_after"><img src="img/mail_reg.svg" alt="mail"></div>
+                    </div>
+                    <button class="login" type="submit">Зарегистрироваться</button>
+                    <input type="checkbox" name="confirm" id="confirm">
+                    <label for="confirm"> Даю согласие на обработку данных и согласен с <a href="#">политикой
+                            конфиденциальности</a>, а также с <a href="#">Условиями продажи</a></label>
+                </form>
+            </div>
         </div>
     </div>
     <header>
@@ -95,7 +137,9 @@
         <div class="upheader upheader2">
             <div class="container_header">
                 <nav>
-                    <a class="gam" href="#"><img src="img/gam.svg" alt="gam"><p>Меню</p></a>
+                    <a class="gam" href="#"><img src="img/gam.svg" alt="gam">
+                        <p>Меню</p>
+                    </a>
                     <ul>
                         <li><a href="#">главная</a></li>
                         <li><a href="#sec_products">продукция</a></li>
@@ -114,56 +158,245 @@
             </div>
         </div>
     </header>
-    <section id="basket">
-        <div class="konch_container">
-            <nav class="category_nav"><a href="" class="category_current">Корзина</a>
-                <p> - </p> <a href="" class="nav_last">Оплата и доставка</a>
-                <p> - </p> <a href="" class="nav_last">Заказ создан</a>
-            </nav>
-            <div class="info catalog_info">
-                <h1>Моя корзина<span>Моя корзина</span></h1>
+    
+    <div class="konch_container">
+        <nav class="category_nav"><a href="" class="nav_last">Главная</a>
+            <p> - </p> <a href="" class="nav_last">Металлочерепица , профнастил, доборы</a>
+            <p> - </p> <a href="" class="category_current">Металлочерепица</a>
+        </nav>
+    </div>
+    
+    <section id="card_product">
+        <div class="content_card_product">
+            <div class="left_card">
+                <img src="img/card_product1.png" alt="card_product1">
+                <div class="carousel_card">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                    <img src="img/card_product1.png" alt="">
+                </div>
+            </div>
+            <div class="right_card">
+                <p class="name_product">“Perfo Грядка-h16” дачная с полимерным покрытием</p>
+                <p class="opis_product">Перфорированные грядки из профиля высотой 16 см с полимерным покрытием (с
+                    возможным выбором цвета) </p>
+                <p class="cost_product">Цена от <span class="prev_cost">2280 ₽</span><span class="now_cost">2080
+                        ₽</span></p>
+                <div class="stars_card">
+                    <div class="itemstar"><img src="img/itemstar_active.svg" alt=""></div>
+                    <div class="itemstar"><img src="img/itemstar_active.svg" alt=""></div>
+                    <div class="itemstar"><img src="img/itemstar_active.svg" alt=""></div>
+                    <div class="itemstar"><img src="img/itemstar_active.svg" alt=""></div>
+                    <div class="itemstar"><img src="img/itemstar_active.svg" alt=""></div>
+                    <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                    <p class="otz_product">(20 отзывов)</p>
+                </div>
+                <div class="cat_params">
+                    <div class="cat_param">
+                        <p class="txt_param">Цвет:</p>
+                        <div class="params">
+                            <input type="radio" name="color" id="green">
+                            <label class="block_color green" for="green"></label>
+                            <input type="radio" name="color" id="brown">
+                            <label class="block_color brown" for="brown"></label>
+                            <input type="radio" name="color" id="yellow">
+                            <label class="block_color yellow" for="yellow"></label>
+                        </div>
+                    </div>
+                    <div class="cat_param">
+                        <p class="txt_param">Длина грядок:</p>
+                        <div class="params">
+                            <input type="radio" name="length" id="length2">
+                            <label class="block_length" for="length2">2м</label>
+                            <input type="radio" name="length" id="length1">
+                            <label class="block_length" for="length1">3м</label>
+                            <input type="radio" name="length" id="length4">
+                            <label class="block_length" for="length4">4м</label>
+                            <input type="radio" name="length" id="length5">
+                            <label class="block_length" for="length5">5м</label>
+                            <input type="radio" name="length" id="length6">
+                            <label class="block_length" for="length6">6м</label>
+                            <input type="radio" name="length" id="length7">
+                            <label class="block_length" for="length7">7м</label>
+                            <input type="radio" name="length" id="length8">
+                            <label class="block_length" for="length8">8м</label>
+                        </div>
+                    </div>
+                    <div class="cat_param">
+                        <p class="txt_param">Ширина грядок:</p>
+                        <div class="params">
+                            <input type="radio" name="width" id="width1">
+                            <label class="block_width" for="width1">0.5м</label>
+                            <input type="radio" name="width" id="width2">
+                            <label class="block_width" for="width2">0.7м</label>
+                            <input type="radio" name="width" id="width1">
+                            <label class="block_width" for="width1">1м</label>
+                        </div>
+                    </div>
+                    <div class="cat_param">
+                        <p class="txt_param">Высота грядок:</p>
+                        <div class="params">
+                            <input type="radio" checked name="height" id="height1">
+                            <label class="block_height" for="height1">0.16м</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="result_block">
+                    <p class="result_cost_card">Итого: <span>2080 ₽</span></p>
+                    <p class="card_count">Количество</p>
+                    <div class="last_block_card">
+                        <input class="count_item_spisok" name="count" type="number" required="required" value="1" min="1">
+                        <button class="in_basket" type="submit">В корзину</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <div class="head_t">
-                <p class="t_photo">Фото товара</p>
-                <p class="t_name">Наименование</p>
-                <p class="t_cost">Цена</p>
-                <p class="t_count">Количество</p>
-                <p class="t_res">Итого</p>
-                <p class="t_remove">Удалить</p>
+        <div class="content_card">
+            <img class="left_info" src="img/left.svg" alt="left">
+            <img class="right_info" src="img/right.svg" alt="right">
+            <div class="up_content">
+                <a href="">Характеристики</a>
+                <a href="">Чертеж</a>
+                <a href="">Описание</a>
+                <a href="">Оплата и доставка</a>
+                <a class="active_card" href="">Отзывы</a>
             </div>
-            <div class="list current_orders active_list">
-                <div class="block_order">
-                    <img src="img/img_order.png" alt="order">
-                    <div class="names_item">
-                        <p class="main_name">“Perfo Грядка-h20 садовая”</p>
-                        <p class="with_item">1.05x2.0 м, 0.35-0.5 мм.</p>
-                        <p class="material_item">Цинк</p>
+            <div class="otz_all">
+                <div class="name__star">
+                    <p class="name_otz">Иван Андреевич</p>
+                    <div class="stars_card_otz">
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
                     </div>
-                    <p class="cost_order">565 ₽</p>
-                    <input class="count" type="number" name="count" value="2">
-                    <p class="res"><span>Итого: </span>1130 ₽</p>
-                    <a href="" class="remove"><img src="img/remove.svg" alt="remove"></a>
                 </div>
-                <div class="block_order">
-                    <img src="img/img_order.png" alt="order">
-                    <div class="names_item">
-                        <p class="main_name">“Perfo Грядка-h20 садовая”</p>
-                        <p class="with_item">1.05x2.0 м, 0.35-0.5 мм.</p>
-                        <p class="material_item">Цинк</p>
+                <p>Все очень круто, спасибо большое, все замечательно! Быстро доставили, грядки хорошие, просто все супер!</p>
+            </div>
+            <div class="otz_all">
+                <div class="name__star">
+                    <p class="name_otz">Иван Андреевич</p>
+                    <div class="stars_card_otz">
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
                     </div>
-                    <p class="cost_order">565 ₽</p>
-                    <input class="count" type="number" name="count" value="2">
-                    <p class="res"><span>Итого: </span>1130 ₽</p>
-                    <a href="" class="remove"><img src="img/remove.svg" alt="remove"></a>
                 </div>
+                <p>Все очень круто, спасибо большое, все замечательно! Быстро доставили, грядки хорошие, просто все супер!</p>
             </div>
-            <p class="res_cost">Итого: <span>1181 ₽</span></p>
-            <div class="btns_basket">
-                <a href="#" class="clean">Очистить корзину</a>
-                <a href="#" class="next">Далее</a>
+            <div class="otz_all">
+                <div class="name__star">
+                    <p class="name_otz">Иван Андреевич</p>
+                    <div class="stars_card_otz">
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                    </div>
+                </div>
+                <p>Все очень круто, спасибо большое, все замечательно! Быстро доставили, грядки хорошие, просто все супер!</p>
             </div>
+           <form class="otz" action="">
+                <div class="star_otz">
+                    <p>Ваша оценка:</p> 
+                    <div class="stars_card_otz">
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                        <div class="clear_itemstar"><img src="img/itemstar.svg" alt=""></div>
+                    </div>
+                </div>  
+                <textarea name="text" id="" cols="30" rows="10" placeholder="Напишите нам Ваш отзыв"></textarea>
+                <button type="submit" class="otz_btn">Отправить</button>
+           </form>
+           <style>
+               .otz_all{
+                width: 600px;
+               }
+               .otz_all p{
+                width: 600px;
+                font-size: 16px;
+               }
+               .name_otz{
+                   font-size: 20px !important;
+               }
+               .name__star{
+                   display: flex;
+                   margin-top: 30px;
+                   width: 400px;
+               }
+               
+               .star_otz{
+                    
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 15px;
+                    margin-top: 25px;
+                }
+               .stars_card_otz{
+                   display: flex;
+                   
+               }
+
+               .otz, .otz textarea{
+                   width: 300px;
+               }
+               .otz textarea {
+                resize: none;
+                   padding-top: 10px;
+                   padding-bottom: 10px;
+                   padding-left: 15px;
+                   padding-right: 15px;
+                   font-size: 15px;
+                   font-family: Gilroy-Regular; 
+               }
+               .star_otz p{
+                font-size: 20px;
+               }
+               .otz button{
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    background: #FF4D4D;
+                    box-shadow: 2px 2px 4px rgb(255 76 76 / 75%);
+                    border-radius: 20px;
+                    padding-top: 21px;
+                    padding-bottom: 21px;
+                    width: 168px;
+                    font-family: Gilroy-Bold;
+                    font-size: 14px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    border: none;
+                    cursor: pointer;
+                }
+                @media screen and (max-width: 700px) {
+                    .otz_all p, .otz_all, .name__star {
+                        width: 100%;
+                    }
+                }
+                @media screen and (max-width: 480px) {
+                    .name__star {
+                        flex-direction: column;
+                    }
+                    .name_otz, .stars_card_otz {
+                        margin-bottom: 10px;
+                    }
+                }
+           </style>
         </div>
     </section>
     <section id="rec_products">
@@ -355,6 +588,62 @@
             </div>
         </div>
     </section>
+    <section id="sec_quations">
+        <div class="konch_container">
+            <div class="info catalog_info">
+                <h1>Остались вопросы? Напишите нам!<span>Остались вопросы? Напишите нам!</span></h1>
+            </div>
+        </div>
+        <div class="container_qts">
+            <form class="info_quations">
+                <input type="text" name="name" placeholder="Представьтесь, пожалуйста">
+                <div class="line2">
+                    <input type="tel" name="tel" placeholder="Телефон (обязательно)">
+                    <input type="email" name="email" placeholder="Электронная почта">
+                </div>
+                <div class="check_block">
+                    <input type="checkbox" name="politic" id="check"><label for="check">
+                        Я ознакомлен с <a href="#">Политикой конфиденциальности</a> и даю согласие на обработку моих
+                        данных
+                    </label>
+                </div>
+                <button class="btn" type="submit">Отправить</button>
+            </form>
+            <img src="img/baba.png" alt="baba">
+        </div>
+    </section>
+    <section id="sec_address">
+        <div class="container_addr">
+            <div class="address_block">
+                <div class="address_info">
+                    <h1>Производство и склад</h1>
+                    <ul>
+                        <li>
+                            <img src="img/point.svg" alt="point">
+                            <p class="h7">Россия, г. Тверь , Пушкинская 34, по. Эммаус</p>
+                        </li>
+                        <li>
+                            <img src="img/tel.svg" alt="tel">
+                            <p class="phones">
+                                <a href="tel:+79038090010">+7 (903) 809 00 10 (сотовый)</a><br>
+                                <a href="tel:+74822575727">+7 (4822) 57-57-27 (многоканальный)</a><br>
+                                <a href="tel:+74822690010">+7 (4822) 69-00-10 (многоканальный)</a>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="img/clock.svg" alt="clock">
+                            <p class="time_work">
+                                Понедельник-пятница: 8:00 - 17:00<br>
+                                Суббота: 9:00 - 15:00<br>
+                                Воскресенье - выходной день
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A25ac4bc8ae39f8e33c1e23ec1b8998bf01f4f2756398040b07e1ef94b5c5efaa&amp;source=constructor" frameborder="0"></iframe>
+        </div>
+    </section>
     <footer>
         <div class="container_foot">
             <div class="top_block">
@@ -440,6 +729,7 @@
     </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
 <script src="js/glider.js"></script>
 <script src="js/main.js"></script>
 
