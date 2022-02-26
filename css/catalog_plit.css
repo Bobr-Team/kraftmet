@@ -1,0 +1,329 @@
+/* hover */
+
+.sort_type:hover,.sort_img div:hover{
+    opacity: 0.6;
+    transition: all 0.2s ease;
+}
+.item_plit:hover{
+    transition: all 0.2s ease;
+    border: none;
+    box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.25);
+}
+.search_catalog :hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+#sec_products {
+    padding-top: 50px !important;
+}
+.category_nav{
+    padding-top: 50px;
+    display: flex;
+    justify-content:left;
+}
+.category_current {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Gilroy-Regular;
+    color: #747474;
+    font-size: 12px;
+}
+.category_nav p{
+    font-family: Gilroy-Bold;
+    color: #747474;
+    font-size: 12px;
+    margin: 0 10px;
+}
+.nav_last{
+    font-family: Gilroy-Bold;
+    text-decoration: none;
+    color: #747474;
+    font-size: 12px;
+}
+.sec_products {
+    padding-top: 50px;
+}
+.sort{
+    width: 1478px;
+    margin: 0 auto;
+    border: 1px solid #AAAAAA;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.sort_left{
+    display: flex;
+    padding-top: 23px;
+    padding-bottom: 24px;
+}
+.sort_left p{
+    font-family: Gilroy-Regular;
+    color: #8A8A8A;
+    font-size: 20px;
+}
+.sort_search span{
+    font-family: Gilroy-Bold;
+}
+.sort_cost, .sort_name, .sort_reyt{
+    text-decoration: none;
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+    color: #8A8A8A;
+}
+.sort_txt {
+    margin-right: 14px;
+}
+.sort_search, .sort_type {
+    margin-right: 48px;
+}
+.sort_type {
+    display: flex;
+    gap: 4px;
+}
+.catalog_info{
+    margin-bottom: 50px;
+}
+.count_sort{
+    display: flex;
+    align-items: center;
+}
+.count_sort p{
+    font-family: Gilroy-Regular;
+    color: #8A8A8A;
+    font-size: 20px;
+    
+}
+
+#selectvalue{
+    font-family: Gilroy-Regular;
+    color: #8A8A8A;
+    font-size: 25px;
+    margin-left: 10px;
+    width: 82px;
+    height: 40px;
+    border: 1px solid #AAAAAA;
+    border-radius: 0px;
+    padding-left: 9px;
+}
+.sort_img{
+    display: flex;
+
+}
+
+.plit_set{
+    width: 27px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.plit_set span{
+    display: block;
+    background: #747474;
+    width: 7px;
+    height: 7px;
+}
+.sort_right {
+    display: flex;
+    align-items: center;
+}
+.pal_sort{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.pal_sort span{
+    display: block;
+    width: 27px;
+    height: 7px;
+    background: #AAAAAA;
+    margin-bottom: 3px;
+}
+.items_plit{
+    width: 1782px;
+    margin: 0 auto;
+    padding-top: 95px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.item_plit{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 423px;
+    border: 1px solid #8A8A8A;
+    border-radius: 20px;
+    position: relative;
+}
+.search_catalog{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+}
+.tov_plit{
+    padding-top: 37px;
+}
+.opis_block{
+    position: relative;
+    width: 364px;
+    margin: 0 auto;
+}
+#count_item_plit{
+    text-align: right;
+    font-family: Gilroy-Regular;
+    font-size: 20px;
+    color: #2D7600;
+
+}
+.names_item{
+    text-align: center;
+}
+.main_name{
+    font-family: Gilroy-Bold;
+    color: #0D0D0D;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.with_item, .material_item{
+    font-family: Gilroy-Regular;
+    color: #0D0D0D;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.material_item{
+    margin-bottom: 0px;
+}
+.otz_item {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otz_item div, .stars_card div {
+    margin: 2px 5px;
+}
+.itemstar::before {
+    display: inline-block;
+    position: relative;
+    content: "";
+    top: -10px;
+    left: 50%;
+    box-shadow: 0px 0px 15px 8px #2d7600;
+}
+.cost_item{
+    font-family: Gilroy-Bold;
+    text-align: center;
+    color: #0D0D0D;
+    font-size: 30px;
+    margin-top: 16px;
+}
+.buy_button{
+    font-family: Gilroy-Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 168px;
+    margin: 0 auto;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    margin-top: 16px;
+    background: #FF4D4D;
+    box-shadow: 2px 2px 4px rgba(255, 76, 76, 0.75);
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* sec opis */
+
+#opis p{
+    width: 1480px;
+    margin: 0 auto;
+    font-family: Gilroy-Regular;
+    color: #0D0D0D;
+    font-size: 15px;
+    padding-bottom: 150px;
+}
+#opis p span{
+    font-family: Gilroy-Bold;
+}
+
+/* adapt */
+
+@media screen and (max-width: 1800px) {
+    .items_plit, #opis p{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1560px) {
+    .sort {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .count_sort {
+        display: none;
+    }
+    #opis p {
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 1280px){
+    .category_nav {    
+        padding-left: 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .sort_search {
+        display: none;
+    }
+}
+@media screen and (max-width: 870px) {
+    .sort {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sort_type {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .sort, .category_nav {
+        display: none;
+    }
+    .items_plit {
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .item_plit, .tov_plit {
+        width: 100%;
+    }
+    .opis_block {
+        width: 95%;
+    }
+}

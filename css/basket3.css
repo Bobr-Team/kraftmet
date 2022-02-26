@@ -1,0 +1,37 @@
+#good p{
+    font-family: Gilroy-Bold; 
+    border: 1px solid #2D7600;
+    border-radius: 5px;
+    width: 1173px;
+    margin: 0 auto;
+    padding-top: 82px;
+    padding-bottom: 82px;
+    text-align: center;
+    color: #2D7600;
+    font-size: 30px;
+    margin-top: 108px;
+    margin-bottom: 136px;
+}
+.categories_basket {
+    margin-left: 0;
+}
+.konch_container {
+    position: relative;
+}
+@media screen and (max-width: 1232px) {
+    #good p {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 700px) {
+    #good p {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 444px) {
+    #good p {
+        font-size: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }    
+}

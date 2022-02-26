@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/catalog_plit.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/glider.css">
+    <link rel="stylesheet" href="css/basket.css">
+    <link rel="stylesheet" href="css/basket3.css">
+    <title>Крафтмет</title>
+</head>
+
+<body>
+    <div class="back_call">
+        <div class="cont_call">
+            <img class="close_btn_call" src="img/close.svg" alt="close">
+            <div class="cntnt_call">
+                <p class="call_h">Наши телефоны:</p>
+                <p class="call_s">+38 (093) 766 88 64</p>
+                <p class="call_s">+38 (093) 766 88 64</p>
+                <p class="call_h">Вам перезвонить?</p>
+                <p class="call_s">Заполните форму ниже и мы перезвоним в ближайшее время</p>
+                <div class="input_block_log">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <div class="face_after"><img src="img/face_after.svg" alt="face_after"></div>
+                </div>
+                <div class="input_block_log">
+                    <input type="tel" name="tel" placeholder="Номер телефона">
+                    <div class="lock_after"><img src="img/phone_reg.svg" alt="phone"></div>
+                </div>
+                <div class="input_block_log">
+                    <input type="email" name="email" placeholder="Сообщение">
+                    <div class="face_after"><img src="img/mail_reg.svg" alt="mail"></div>
+                </div>
+            </div>
+            <a class="btn_send_call" href="">Отправить</a>
+            <p class="call_xs">Нажимая на кнопку я даю согласие на обработку данных и согласен с политикой
+                конфиденциальности, а также с Условиями продажи</p>
+        </div>
+    </div>
+    <header>
+        <div class="upheader">
+            <div class="container_header">
+                <div class="left_header">
+                    <div class="tel1">
+                        <img src="img/tel.svg" alt="tel">
+                        <a href="tel:+380937668864">+38 (093) 766 88 64</a>
+                    </div>
+                    <div class="tel2">
+                        <img src="img/tel.svg" alt="tel">
+                        <a href="tel:+380937668864">+38 (093) 766 88 64</a>
+                    </div>
+                    <div class="mail">
+                        <img src="img/mail.svg" alt="mail">
+                        <a href="mailto:perfogryadka@mail.ru">perfogryadka@mail.ru</a>
+                    </div>
+                </div>
+                <div class="auth">
+                    <a class="join">Войти</a>
+                    <a class="reg">Регистрация</a>
+                </div>
+            </div>
+        </div>
+        <div class="container_header header_logo">
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo">
+                <p>завод металло<span>изделий</span></p>
+            </div>
+            <p class="time">
+                Время работы <br>
+                Пн-Пт с 8:00 до 17:00 <br>
+                Сб &emsp; с 9:00 до 15:00 <br>
+                Вс &emsp; выходной
+            </p>
+            <div class="search">
+                <input type="text" placeholder="Поиск товара" id="search">
+                <button class="icon"><img src="img/search.svg" alt="search"></button>
+            </div>
+            <a class="call">Заказать звонок</a>
+            <div class="basket_cost">
+                <div class="basket_cash">
+                    <a href="#"><img src="img/basket.svg" alt="basket"></a>
+                    <div class="count_basket">
+                        <p id="count">5</p>
+                    </div>
+                </div>
+                <a href="#" class="money">
+                    <p class="summ">4578 ₽</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="upheader upheader2">
+            <div class="container_header">
+                <nav>
+                    <a class="gam" href="#"><img src="img/gam.svg" alt="gam">
+                        <p>Меню</p>
+                    </a>
+                    <ul>
+                        <li><a href="#">главная</a></li>
+                        <li><a href="#sec_products">продукция</a></li>
+                        <li><a href="#about">о компании</a></li>
+                        <li><a href="#sale">акции</a></li>
+                        <li><a href="#sec_address">контакты</a></li>
+                    </ul>
+                    <div class="future_search"></div>
+                    <ul class="right_ul">
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li class="opt"><a href="#">Оптовикам</a></li>
+                    </ul>
+                </nav>
+                <div class="future_basket"></div>
+            </div>
+        </div>
+    </header>
+    <section id="basket">
+        <div class="konch_container">
+            <div class="info catalog_info">
+                <h3>Моя корзина<span>Моя корзина</span></h3>
+            </div>
+        </div>
+        <div class="konch_container">
+            <img class="left_ord" src="img/left.svg" alt="left">
+            <img class="right_ord" src="img/right.svg" alt="right">
+            <div class="categories_basket">
+                <div class="type_orders">
+                    <p id="basket_order">Корзина <span>(2)</span></p>
+                </div>
+                <img src="img/arrow_basket.svg" alt="arrow_basket">
+                <div class="type_orders">
+                    <p id="buy_order">Оплата и доставка</p>
+                </div>
+                <img src="img/arrow_basket.svg" alt="arrow_basket">
+                <div class="type_orders active_order">
+                    <p id="create_order">Заказ создан</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="good">
+        <p>Спасибо, Ваш заказ был принят</p>
+    </section>
+    <footer>
+        <div class="container_foot">
+            <div class="top_block">
+                <div class="left_block">
+                    <div class="logo">
+                        <img src="img/logo.svg" alt="logo">
+                        <p>завод металло<span>изделий</span></p>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="img/ok.svg" alt="ok"></a>
+                        <a href="#"><img src="img/telegram.svg" alt="telegram"></a>
+                    </div>
+                </div>
+                <div class="right_block">
+                    <div class="information">
+                        <div class="block_head">
+                            <p class="h10">Информация</p>
+                            <img src="img/arr_down.svg" alt="arr_down">
+                        </div>
+                        <ul>
+                            <li class="h9"><a href="#">Главная</a></li>
+                            <li class="h9"><a href="#about">О компании</a></li>
+                            <li class="h9"><a href="#sale">Акции</a></li>
+                            <li class="h9"><a href="#">Оплата</a></li>
+                            <li class="h9"><a href="#">Доставка</a></li>
+                            <li class="h9"><a href="#">Оптовикам</a></li>
+                        </ul>
+                    </div>
+                    <div class="productions">
+                        <div class="block_head">
+                            <p class="h10">Продукция</p>
+                            <img src="img/arr_down.svg" alt="arr_down">
+                        </div>
+                        <ul>
+                            <li class="h9"><a href="#">Поликарбонат сотовый, монолитный</a></li>
+                            <li class="h9"><a href="#">Сетка складочная арматурная</a></li>
+                            <li class="h9"><a href="#">Металлочерепица, профнастил, доборы</a></li>
+                            <li class="h9"><a href="#">Теплицы и комплектующие</a></li>
+                            <li class="h9"><a href="#">Винтовые сваи и комплектующие</a></li>
+                            <li class="h9"><a href="#">Грядки, компостеры</a></li>
+                        </ul>
+                    </div>
+                    <div class="contacts">
+                        <div class="block_head">
+                            <p class="h10">Контакты</p>
+                            <img src="img/arr_down.svg" alt="arr_down">
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="img/tel.svg" alt="tel">
+                                <p class="phones">
+                                    <a href="tel:+79038090010">+7 (903) 809 00 10 (сотовый)</a><br>
+                                    <a href="tel:+74822575727">+7 (4822) 57-57-27 (многоканальный)</a><br>
+                                    <a href="tel:+74822690010">+7 (4822) 69-00-10(многоканальный)</a>
+                                </p>
+                            </li>
+                            <li>
+                                <img src="img/mail.svg" alt="mail">
+                                <a class="mail" href="mailto:perfogryadka@mail.ru">perfogryadka@mail.ru</a>
+                            </li>
+                            <li>
+                                <img src="img/clock.svg" alt="clock">
+                                <p class="time_work">
+                                    Понедельник-пятница: 8:00 - 17:00<br>
+                                    Суббота: 9:00 - 15:00<br>
+                                    Воскресенье - выходной день
+                                </p>
+                            </li>
+                            <li>
+                                <a href="" class="contact_call">Обратный звонок</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights">
+                <a href="#" class="conf">Политика конфидинциальности</a>
+                <a href="#" class="pers">Соглашение на обработку персональных данных</a>
+                <p class="rights">© 2021 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="js/glider.js"></script>
+<script src="js/main.js"></script>
+
+</html>

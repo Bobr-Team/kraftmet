@@ -1,0 +1,160 @@
+#settings_acc{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.settings{
+    width: 1480px;
+    margin: 0 auto;
+}
+.cont_settings{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 70px;
+    width: 564px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+.txt_input{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.self {
+    font-family: Gilroy-Regular;
+    color: #0D0D0D;
+    font-size: 30px;
+    text-decoration: none;
+}
+.change_pass{
+    font-family: Gilroy-Regular;
+    color: #0D0D0D;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 109px;
+}
+.active_setting {
+    font-family: Gilroy-Bold;
+    color: #0D0D0D;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 3px solid #0D0D0D;;
+    padding-bottom: 20px;
+}
+
+.change_password{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 70px;
+    width: 618px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+.active_block {
+    display: flex;
+}
+
+.cont_txt{
+    font-family: Gilroy-Bold;
+    color: #0D0D0D;
+    font-size: 20px;
+}
+.txt_input p{
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    color: #0D0D0D;
+
+}
+.txt_input p span{
+    color: #FF4D4D;
+}
+.txt_input input{
+    font-family: Gilroy-Regular;
+    font-size: 20px;
+    color: #0D0D0D;
+    padding-left: 30px;
+    border: 1px solid #AAAAAA;
+    width: 468px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 5px;
+}
+.btn_change{
+    font-family: Gilroy-Bold;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    width: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    background: #FF4D4D;
+    box-shadow: 2px 2px 4px rgba(255, 76, 76, 0.75);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.left_settings, .right_settings {
+    position: absolute;
+    display: none;
+    top: 0;
+    z-index: 2;
+}
+@media screen and (max-width: 1670px) {
+    .settings {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .settings {
+        width: 90%;
+    }
+    .change_password, .cont_settings {
+        width: 100%;
+    }
+    .txt_input input {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 610px) {
+    .txt_input {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .txt_input input {
+        width: 100%;
+    }
+    .settings {
+        position: relative;
+    }
+    .left_settings, .right_settings {
+        display: block;
+    }
+    .left_settings {
+        left: 0;
+    }
+    .right_settings {
+        right: 0;
+    }
+    .txt_settings a {
+        text-align: center;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 60px; */
+    }
+    .change_pass {
+        margin-left: 0;
+    }
+    .change_pass, .self {
+        font-size: 20px;
+    }
+}

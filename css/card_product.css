@@ -1,0 +1,372 @@
+#card_product{
+    width: 1480px;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+}
+.content_card_product{
+    display: flex;
+    justify-content: space-between;
+}
+.left_card > img {
+    width: 100%;
+}
+.left_card {
+    width: 800px;
+}
+.carousel_card{
+    margin-top: 15px;
+}
+.carousel_card img{
+    width: 90px;
+    height: 103px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.carousel_card img:last-child{
+    margin-right: 0px;
+}
+
+.right_card{
+    width: 635px;
+}
+.name_product{
+    color: #0D0D0D;
+    font-size: 40px;
+    font-family: Gilroy-Bold;
+}
+.opis_product{
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    color: #0D0D0D;
+    width: 562px;
+    margin-top: 10px;
+}
+.cost_product{
+    font-family: Gilroy-Regular;
+    color: #0D0D0D;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: 376px;
+    justify-content: space-between;
+}
+.prev_cost{
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    color: #AAAAAA;
+    text-decoration: line-through;
+}
+.now_cost{
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    color: #FF4D4D;
+}
+.stars_card{
+    display: flex;
+    align-items: center;
+    margin-top: 27px;
+}
+.otz_product{
+    font-family: Gilroy-Regular;
+    color: #0D0D0D;
+    font-size: 15px;
+}
+.cat_params {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 0;
+}
+.cat_param{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.txt_param{
+    color: #0D0D0D;
+    font-size: 15px;
+    font-family: Gilroy-Regular;
+}
+.params {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 460px;
+}
+.block_color{
+    width: 146px;
+    height: 60px;
+    outline: 2px #2D7600 solid;
+    
+    border: solid 2px white;
+}
+.green{
+    background: #2D7600;
+}
+.brown{
+    background: #894200;
+}
+.yellow{
+    background: #EFF400;
+}
+.cat_param input {
+    display: none;
+}
+.cat_param input:checked+label {
+    outline: 4px solid #FF4D4D;
+}
+.block_length, .block_height, .block_width { 
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    color: #0D0D0D;
+
+    width: 106px;
+    height: 60px;
+    outline: 2px #2D7600 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result_block {
+    border: 1px solid #AAAAAA;
+    padding: 37px 130px;
+    display: flex;
+    flex-direction: column;
+}
+.result_cost_card {
+    font-family: Gilroy-Regular;
+    font-size: 50px;
+    color: #0D0D0D;
+}
+.result_cost_card span {
+    font-family: Gilroy-Bold;
+    font-size: 65px;
+}
+.card_count {
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    color: #0D0D0D;
+}
+.last_block_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.count_item_spisok{
+    font-family: Gilroy-Bold;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    padding-left: 8px;
+    width: 140px;
+    height: 60px;
+    font-size: 30px;
+    color: #0D0D0D;
+}
+.in_basket {
+    background: #FF4D4D;
+    box-shadow: 2px 2px 4px rgba(255, 76, 76, 0.75);
+    border-radius: 20px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    width: 168px;
+
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.content_card {
+    position: relative;
+}
+.left_info, .right_info {
+    position: absolute;
+    top: 155px;
+    z-index: 2;
+    display: none;
+    cursor: pointer;
+}
+.left_info {
+    left: 0;
+}
+.right_info {
+    right: 0;
+}
+
+
+
+
+
+.content_card{
+    padding-top: 150px;
+}
+.content_card p{
+    width: 1474px;
+    color: #0D0D0D;
+    font-size: 15px;
+    font-family: Gilroy-Regular;
+    line-height: 22px;
+}
+.content_card p span{
+    font-family: Gilroy-Bold;
+}
+.up_content{
+    margin-bottom: 100px;
+}
+
+.up_content a{
+    font-family: Gilroy-Regular;
+    color: #0D0D0D;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 100px;
+    
+}
+.active_card{
+    font-family: Gilroy-Bold !important;
+    border-bottom: 3px solid #0D0D0D;;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1670px) {
+    #card_product {
+        width: 90%;
+    }
+    .content_card_product {
+        gap: 30px;
+    }
+    .content_card p{
+        width: 100%;
+    }
+    .category_nav {
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .right_card {
+        width: 560px;
+    }
+    .result_block {
+        padding: 30px 90px;
+    }
+    .params {
+        width: 420px;
+    }
+    .block_color {
+        width: 126px;
+    }
+    .block_length, .block_height, .block_width {
+        width: 92px;
+    }
+}
+@media screen and (max-width: 1530px) {
+    .up_content a {
+        margin-right: 25px;
+        margin-left: 25px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .left_card {
+        width: 50%;
+    }
+    .left_info, .right_info {
+        display: block;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .content_card_product {
+        flex-direction: column;
+    }
+    .category_nav {
+        display: none;
+    }
+    .right_card {
+        width: 100%;
+    }
+    .params {
+        width: 600px;
+    }
+    .block_color {
+        width: 190px;
+    }
+    .block_length, .block_height, .block_width {
+        width: 110px;
+    }
+    .result_block {
+        width: 530px;
+        padding: 30px 75px;
+    }
+    .left_card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .params {
+        width: 400px;
+    }
+    .block_color {
+        width: 125px;
+    }
+    .block_length, .block_height, .block_width {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .params {
+        width: 270px;
+    }
+    .block_color, .block_length, .block_height, .block_width {
+        width: 80px;
+        height: 40px;
+    }
+    .result_block {
+        padding: 30px 0;
+        width: 100%;
+    }
+    .result_block, .last_block_card {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .result_cost_card {
+        font-size: 35px;
+    }
+    .result_cost_card span {
+        font-size: 35px;
+    }
+    .count_item_spisok {
+        height: 40px;
+        font-size: 25px;
+        width: 168px;
+    }
+    .card_count, .result_cost_card {
+        text-align: center;
+    }
+    .name_product {
+        font-size: 25px;
+    }
+    .cost_product span {
+        font-size: 30px;
+    }
+    .opis_product {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cost_product {
+        width: 100%;
+    }
+    .params {
+        width: 145px;
+    }
+    .block_color, .block_length, .block_height, .block_width {
+        width: 67px;
+    }
+    .stars_card img {
+        width: 23px;
+        height: 23px;
+    }
+}
