@@ -144,15 +144,7 @@ $(document).ready(function(){
         })
     }
     
-    // feed slider
-    if (document.querySelector('.items_feed') != null) {
-        new Glider(document.querySelector('.items_feed'), {
-            slidesToShow: 'auto',
-            itemWidth: 543,
-            slidesToScroll: 'auto',
-            draggable: true
-        })
-    }
+
     // rec_product slider
     if (document.querySelector('.rec_product') != null) {
         new Glider(document.querySelector('.rec_product'), {

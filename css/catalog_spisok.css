@@ -371,7 +371,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 @media screen and (max-width: 870px) {
     .sort_cost, .sort_name, .sort_reyt{
-        font-size: 10px;
+        font-size: 16px;
     }
     .sort_txt{
         display: none;
@@ -393,6 +393,9 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 @media screen and (max-width: 480px) {
+    .sort_cost, .sort_name, .sort_reyt{
+        font-size: 12px;
+    }
     .item_plit, .tov_plit {
         width: 100%;
     }
@@ -403,5 +406,10 @@ input[type=number]::-webkit-outer-spin-button {
         width: 100%;
         padding-left: 10px;
         padding-right: 10px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .sort_cost, .sort_name, .sort_reyt{
+        font-size: 10px;
     }
 }
